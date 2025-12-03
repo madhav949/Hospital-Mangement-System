@@ -15,7 +15,7 @@ export interface Address {
   patientId?: number;
 }
 
-// Patient Interface
+// Patient Interface  
 export interface IPatient {
   id?: number;
   patientName: string;

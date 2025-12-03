@@ -8,7 +8,7 @@ import { RouterLink, RouterModule } from '@angular/router'
   selector: 'app-root',
   imports: [FormsModule, RouterOutlet, CommonModule, RouterModule],
   templateUrl: './layouts.html',
-  styleUrl: '../patient/patient.component.css'
+  styleUrl: './home.css'
 })
 export class layouts {
 }

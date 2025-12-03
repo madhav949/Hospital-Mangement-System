@@ -15,7 +15,7 @@
         <input type="number" placeholder="Enter your phone number" required [(ngModel)]="patient.phone" name="phone">
 
         <h3>Addresses</h3>
-        <div *ngFor="let addr of patient.addresses; let i = index" class="mb-2">
+        <div *ngFor="let addr of patient.addresses; let i = index" class="address-box">
           <label>Street1:</label>
           <input placeholder="Street1" [(ngModel)]="addr.street1" name="street1{{i}}">
           <label>Street2:</label>
@@ -26,10 +26,11 @@
         
 
         <br><br>
-        <input type="button" [value]="editingPatientId !== null ? 'Update' : 'Save'" (click)="Add()">
+        <input type="button" [value]="editingPatientId !== null ? 'Update' : 'Save'" (click)="Add()"><br>
 
-        <div *ngIf='iseditmode' (click)="update()">Update</div>
-        <div *ngIf="iseditmode" (click)="cancel()">cancel</div>
+        <button type="button" *ngIf='iseditmode' (click)="update()">Update</button><br>
+
+        <button type="button" *ngIf="iseditmode" (click)="cancel()">cancel</button>
       </form>
 
       <h3>Saved Patients</h3>
@@ -48,12 +49,10 @@
           <td>{{p.age}}</td>
           <td>{{p.phone}}</td>
           <td>
-            <ul>
-              <li *ngFor="let addr of p.addresses">
-                <label>Street1:</label> "{{addr.street1}}" <br>
-                <label>Street2:</label> "{{addr.street2}}"
-              </li>
-            </ul>
+            <div class="address-box" *ngFor="let addr of p.addresses">
+              <span class="addr-label">Street1:</span> <span>{{addr.street1}}</span> <br>
+              <span class="addr-label">Street2:</span> <span>{{addr.street2}}</span>
+            </div>
           </td>
           <td>
             <button (click)="editPatient(p.id!)">Edit</button>
