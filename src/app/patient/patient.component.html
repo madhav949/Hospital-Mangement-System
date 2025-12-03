@@ -1,0 +1,66 @@
+ <header><h1>Hospital Management System</h1></header> 
+<main>
+  <section id="Patient">
+    <h2><strong>Patient-Details</strong></h2>
+    <div id="patient-form">
+      <form #patientForm="ngForm">
+        <h3>Enter the patient information</h3>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter full name" required [(ngModel)]="patient.patientName" name="patientName">
+
+        <label>Age</label>
+        <input type="number" placeholder="Ex-20" required [(ngModel)]="patient.age" name="age">
+
+        <label>Phone-Number</label>
+        <input type="number" placeholder="Enter your phone number" required [(ngModel)]="patient.phone" name="phone">
+
+        <h3>Addresses</h3>
+        <div *ngFor="let addr of patient.addresses; let i = index" class="mb-2">
+          <label>Street1:</label>
+          <input placeholder="Street1" [(ngModel)]="addr.street1" name="street1{{i}}">
+          <label>Street2:</label>
+          <input placeholder="Street2" [(ngModel)]="addr.street2" name="street2{{i}}">
+          <button type="button" (click)="removeAddress(i)">Remove</button>
+        </div>
+        <button type="button" (click)="addAddress()">Add Address</button>
+        
+
+        <br><br>
+        <input type="button" [value]="editingPatientId !== null ? 'Update' : 'Save'" (click)="Add()">
+
+        <div *ngIf='iseditmode' (click)="update()">Update</div>
+        <div *ngIf="iseditmode" (click)="cancel()">cancel</div>
+      </form>
+
+      <h3>Saved Patients</h3>
+      <table border="1" *ngIf="Allpatients.length > 0">
+        <tr>
+          <th>ID</th>
+          <th>Full Name</th>
+          <th>Age</th>
+          <th>Phone</th>
+          <th>Addresses</th>
+          <th>Actions</th>
+        </tr>
+        <tr *ngFor="let p of Allpatients">
+          <td>{{p.id}}</td>
+          <td>{{p.patientName}}</td>
+          <td>{{p.age}}</td>
+          <td>{{p.phone}}</td>
+          <td>
+            <ul>
+              <li *ngFor="let addr of p.addresses">
+                <label>Street1:</label> "{{addr.street1}}" <br>
+                <label>Street2:</label> "{{addr.street2}}"
+              </li>
+            </ul>
+          </td>
+          <td>
+            <button (click)="editPatient(p.id!)">Edit</button>
+            <button (click)="deletePatient(p.id!)">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+</main>
