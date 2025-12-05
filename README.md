@@ -1,59 +1,181 @@
-# HMS
+# CRUD Application using Angular & .NET C# Backend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+This project is a full-stack CRUD (Create, Read, Update, Delete) application built using **Angular** for the frontend and **ASP.NET Core (C#)** for the backend API. The goal of the project is to demonstrate a clean, modular, and industry-level architecture for building scalable web applications.
 
-## Development server
+---
 
-To start a local development server, run:
+## Preview 
 
-```bash
-ng serve
+![image](my-project/public/sample.png)
+
+
+## 🚀 Tech Stack
+
+### **Frontend (Angular)**
+
+* Angular 16+
+* TypeScript
+* Angular Material / Bootstrap (optional)
+* RxJS for state & async operations
+* HttpClient for API communication
+
+### **Backend (ASP.NET Core)**
+
+* .NET 6 / .NET 7 Web API
+* Entity Framework Core
+* SQL Server / SQLite
+* Repository Pattern (optional)
+* Dependency Injection
+
+---
+
+## 📌 Features
+
+* Add new records
+* View all records
+* Update existing records
+* Delete records
+* API-based communication between Angular and .NET backend
+* Clean folder structure for both frontend and backend
+* Reactive Forms in Angular
+* DTOs, Models, Validation in .NET
+
+---
+
+## 📁 Project Structure
+
+### **Angular Frontend**
+
+```
+src/
+ ├── app/
+ │   ├── components/      # UI components (list, create, edit)
+ │   ├── services/        # API services using HttpClient
+ │   ├── models/          # Interfaces/Types
+ │   ├── pages/           # Page-level components
+ │   └── app.module.ts
+ │
+ ├── assets/
+ └── main.ts
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### **.NET Backend**
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+Project/
+ ├── Controllers/         # CRUD API endpoints
+ ├── Models/              # Database models
+ ├── DTOs/                # Data transfer objects
+ ├── Data/                # DbContext
+ ├── Repositories/        # Repository interface + implementation
+ ├── Migrations/          # EF Core migrations
+ └── Program.cs / Startup.cs
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
+## ⚙️ How to Run the Project
+
+### **Backend Setup**
+
+1. Navigate to the backend folder
+2. Restore dependencies:
+
+```
+dotnet restore
 ```
 
-## Building
+3. Apply migrations:
 
-To build the project run:
-
-```bash
-ng build
+```
+dotnet ef database update
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+4. Run the API:
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
+```
+dotnet run
 ```
 
-## Running end-to-end tests
+Backend will run at:
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
+```
+https://localhost:5001
+http://localhost:5000
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+### **Frontend Setup (Angular)**
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Navigate to the Angular project folder
+2. Install dependencies:
+
+```
+npm install
+```
+
+3. Start development server:
+
+```
+npm start
+```
+
+Angular app will run at:
+
+```
+http://localhost:4200
+```
+
+---
+
+## 🔗 API Endpoints Example
+
+```
+GET    /api/items
+GET    /api/items/{id}
+POST   /api/items
+PUT    /api/items/{id}
+DELETE /api/items/{id}
+```
+
+---
+
+## 🏗️ How CRUD Works in This Project
+
+### **Frontend Flow**
+
+1. Component triggers a service method
+2. Service sends HTTP request to .NET API
+3. Angular updates UI using Observables
+
+### **Backend Flow**
+
+1. Controller receives API request
+2. Validates incoming data (DTO)
+3. Repository handles database operations
+4. Response returned to Angular
+
+---
+
+## 🛠️ Future Improvements
+
+* JWT authentication & authorization
+* Pagination & Filtering
+* Global error handling
+* Form validations (Angular + .NET)
+* Docker support
+
+---
+
+## 📜 License
+
+This project is open-source and free to modify.
+
+---
+
+## 🙌 Author
+
+**Gajendra Singh**
+
+Feel free to improve or contribute!
