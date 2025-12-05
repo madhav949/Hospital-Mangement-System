@@ -1,181 +1,142 @@
-# CRUD Application using Angular & .NET C# Backend
+**Hospital Management System**
 
-This project is a full-stack CRUD (Create, Read, Update, Delete) application built using **Angular** for the frontend and **ASP.NET Core (C#)** for the backend API. The goal of the project is to demonstrate a clean, modular, and industry-level architecture for building scalable web applications.
+The Hospital Management System is a simple and user-friendly application designed to manage and maintain patient records efficiently.
+This project allows users to add, update, delete, and view patient information.
+New features will be added in the future as the system grows.
 
----
+Features
 
-## Preview 
+ Patient Management
 
-![image](my-project/public/sample.png)
+Add new patient details
+
+Update existing patient information
+
+Delete patient records
+
+View patient list
+
+ Simple & Clean UI
+
+Designed to be easy for hospital staff to use.
+
+ **Future Enhancements **
+
+  Doctor management
+  
+  Appointment scheduling
+  
+  Billing system
+  
+  Authentication (Admin/User login)
+  
+  Medical history and reports
 
 
-## 🚀 Tech Stack
+📂 Project Structure
 
-### **Frontend (Angular)**
+Hospital-Management-System/
 
-* Angular 16+
-* TypeScript
-* Angular Material / Bootstrap (optional)
-* RxJS for state & async operations
-* HttpClient for API communication
+    │── frontend/
+    │── backend/
+    |──Screenshots/
+    │── README.md
+    └── other files…
 
-### **Backend (ASP.NET Core)**
 
-* .NET 6 / .NET 7 Web API
-* Entity Framework Core
-* SQL Server / SQLite
-* Repository Pattern (optional)
-* Dependency Injection
+Angular Frontend
 
----
+    frontend/
+     ├── src/
+     │   ├── app/
+     │   │   ├── components/       # Patient components (list, add, edit)
+     │   │   ├── services/         # API services
+     │   │   ├── models/           # Interfaces
+     │   │   ├── pages/            # Page-level components
+     │   │   └── app.module.ts
+     │   ├── assets/
+     │   └── main.ts
 
-## 📌 Features
 
-* Add new records
-* View all records
-* Update existing records
-* Delete records
-* API-based communication between Angular and .NET backend
-* Clean folder structure for both frontend and backend
-* Reactive Forms in Angular
-* DTOs, Models, Validation in .NET
 
----
+.NET Backend
 
-## 📁 Project Structure
+    backend/
+     ├── Controllers/              # API Endpoints (PatientsController)
+     ├── Models/                   # Patient model
+     ├── DTOs/                     # Data transfer objects
+     ├── Data/                     # DbContext
+     ├── Migrations/               # EF Core migrations
+     ├── Repositories/             # Repository Pattern (optional)
+     └── Program.cs / Startup.cs
+    
 
-### **Angular Frontend**
+🚀 Tech Stack
+Frontend (Angular)
 
-```
-src/
- ├── app/
- │   ├── components/      # UI components (list, create, edit)
- │   ├── services/        # API services using HttpClient
- │   ├── models/          # Interfaces/Types
- │   ├── pages/           # Page-level components
- │   └── app.module.ts
- │
- ├── assets/
- └── main.ts
-```
+Angular 16+
 
-### **.NET Backend**
+Angular Material 
 
-```
-Project/
- ├── Controllers/         # CRUD API endpoints
- ├── Models/              # Database models
- ├── DTOs/                # Data transfer objects
- ├── Data/                # DbContext
- ├── Repositories/        # Repository interface + implementation
- ├── Migrations/          # EF Core migrations
- └── Program.cs / Startup.cs
-```
+HttpClient for REST API communication
 
----
 
-## ⚙️ How to Run the Project
 
-### **Backend Setup**
+Backend (.NET)
 
-1. Navigate to the backend folder
-2. Restore dependencies:
+ASP.NET Core (.NET 6 / 7)
 
-```
-dotnet restore
-```
+Entity Framework Core
 
-3. Apply migrations:
+SQL Server 
 
-```
-dotnet ef database update
-```
+Repository Pattern (optional)
 
-4. Run the API:
+Model Binding + Validation
 
-```
-dotnet run
-```
+Dependency Injection
 
-Backend will run at:
 
-```
-https://localhost:5001
-http://localhost:5000
-```
+🚀 How to Run
 
----
+1. Clone the repository
 
-### **Frontend Setup (Angular)**
+       git clone https://github.com/Sanjay-Rajbanshi/Hospital-Management-System.git
 
-1. Navigate to the Angular project folder
-2. Install dependencies:
+2. Install Dependencies
 
-```
-npm install
-```
+    Frontend:
 
-3. Start development server:
+        cd frontend
+        npm install
 
-```
-npm start
-```
 
-Angular app will run at:
+    Backend:
 
-```
-http://localhost:4200
-```
+        cd backend
+        npm install
 
----
+3. Start the Project
 
-## 🔗 API Endpoints Example
+    Frontend:
 
-```
-GET    /api/items
-GET    /api/items/{id}
-POST   /api/items
-PUT    /api/items/{id}
-DELETE /api/items/{id}
-```
+        ng serve
 
----
 
-## 🏗️ How CRUD Works in This Project
+    or
 
-### **Frontend Flow**
+        npm start
 
-1. Component triggers a service method
-2. Service sends HTTP request to .NET API
-3. Angular updates UI using Observables
 
-### **Backend Flow**
+    Backend:
 
-1. Controller receives API request
-2. Validates incoming data (DTO)
-3. Repository handles database operations
-4. Response returned to Angular
+        npm run dev
 
----
+📸 Output Screenshots
 
-## 🛠️ Future Improvements
+<img width="1706" height="905" alt="Screenshot 2025-11-29 171540" src="https://github.com/user-attachments/assets/acbd15ba-9b7c-4dc1-8a00-728c7cb1188e" />
 
-* JWT authentication & authorization
-* Pagination & Filtering
-* Global error handling
-* Form validations (Angular + .NET)
-* Docker support
 
----
+👨‍💻 Author
 
-## 📜 License
-
-This project is open-source and free to modify.
-
----
-
-## 🙌 Author
-
-**Madhav Joshi**
-
-Feel free to improve or contribute!
+Madhav Joshi
