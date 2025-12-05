@@ -1,142 +1,61 @@
-**Hospital Management System**
+# 🏥 Hospital Management System (HMS)
 
-The Hospital Management System is a simple and user-friendly application designed to manage and maintain patient records efficiently.
-This project allows users to add, update, delete, and view patient information.
-New features will be added in the future as the system grows.
+A full-stack Hospital Management System built using **Angular** for the frontend and **ASP.NET Core Web API** for the backend with **SQL Server** as the database.  
+This project demonstrates CRUD operations for managing Patients and their Addresses using a one-to-many relationship.
 
-Features
+---
 
- Patient Management
+## 👀 Preview
 
-Add new patient details
-
-Update existing patient information
-
-Delete patient records
-
-View patient list
-
- Simple & Clean UI
-
-Designed to be easy for hospital staff to use.
-
- **Future Enhancements **
-
-  Doctor management
-  
-  Appointment scheduling
-  
-  Billing system
-  
-  Authentication (Admin/User login)
-  
-  Medical history and reports
+> 📌 Add your screenshots here (after uploading to GitHub)
 
 
-📂 Project Structure
+---
 
-Hospital-Management-System/
+## 🛠️ Tech Stack
 
-    │── frontend/
-    │── backend/
-    |──Screenshots/
-    │── README.md
-    └── other files…
+| Component | Technology |
+|----------|------------|
+| Frontend | Angular, TypeScript, HTML, CSS, Bootstrap |
+| Backend | ASP.NET Core Web API (.NET 6/7) |
+| Database | Microsoft SQL Server |
+| ORM | Entity Framework Core |
+| Tools | Visual Studio, VS Code, SSMS, GitHub |
 
+---
 
-Angular Frontend
+## ✨ Features
 
-    frontend/
-     ├── src/
-     │   ├── app/
-     │   │   ├── components/       # Patient components (list, add, edit)
-     │   │   ├── services/         # API services
-     │   │   ├── models/           # Interfaces
-     │   │   ├── pages/            # Page-level components
-     │   │   └── app.module.ts
-     │   ├── assets/
-     │   └── main.ts
+- Create new patient records
+- Display list of all patients with addresses
+- Update patient details
+- Delete patient from database
+- One-to-Many relationship (1 Patient → Many Addresses)
+- Angular Routing + Form Validations
+- Consumes RESTful API
+- Clean and responsive UI
 
+---
 
+## 📂 Project Structure
 
-.NET Backend
+---
 
-    backend/
-     ├── Controllers/              # API Endpoints (PatientsController)
-     ├── Models/                   # Patient model
-     ├── DTOs/                     # Data transfer objects
-     ├── Data/                     # DbContext
-     ├── Migrations/               # EF Core migrations
-     ├── Repositories/             # Repository Pattern (optional)
-     └── Program.cs / Startup.cs
-    
+## 🚀 How to Run the Project
 
-🚀 Tech Stack
-Frontend (Angular)
+### 1️⃣ Clone this Repository
+```sh
+git clone https://github.com/your-username/HospitalManagementSystem.git
+cd HospitalManagementSystem
 
-Angular 16+
+cd Backend
+dotnet restore
+dotnet ef database update
+dotnet run
 
-Angular Material 
-
-HttpClient for REST API communication
+cd ../Frontend
+npm install
+ng serve -o
 
 
 
-Backend (.NET)
-
-ASP.NET Core (.NET 6 / 7)
-
-Entity Framework Core
-
-SQL Server 
-
-Repository Pattern (optional)
-
-Model Binding + Validation
-
-Dependency Injection
-
-
-🚀 How to Run
-
-1. Clone the repository
-
-       git clone https://github.com/Sanjay-Rajbanshi/Hospital-Management-System.git
-
-2. Install Dependencies
-
-    Frontend:
-
-        cd frontend
-        npm install
-
-
-    Backend:
-
-        cd backend
-        npm install
-
-3. Start the Project
-
-    Frontend:
-
-        ng serve
-
-
-    or
-
-        npm start
-
-
-    Backend:
-
-        npm run dev
-
-📸 Output Screenshots
-
-<img width="1706" height="905" alt="Screenshot 2025-11-29 171540" src="https://github.com/user-attachments/assets/acbd15ba-9b7c-4dc1-8a00-728c7cb1188e" />
-
-
-👨‍💻 Author
-
-Madhav Joshi
