@@ -101,7 +101,7 @@ Dependency Injection
 
 1. Clone the repository
 
-       git clone https://github.com/Sanjay-Rajbanshi/Hospital-Management-System.git
+       https://github.com/madhav949/Hospital-Mangement-System.git
 
 2. Install Dependencies
 
