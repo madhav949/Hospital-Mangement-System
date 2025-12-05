@@ -176,6 +176,6 @@ This project is open-source and free to modify.
 
 ## 🙌 Author
 
-**Gajendra Singh**
+**Madhav Joshi**
 
 Feel free to improve or contribute!
