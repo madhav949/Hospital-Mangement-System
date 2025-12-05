@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayPatient</title>
+</head>
+<body>
+    @{
+        for(int i = 0; i <= 3; i++)
+        {
+            @i;<br/>
+        }
+
+        <b>@Model.patientName </b><br />
+        <b>@Model.age</b>
+        <br />
+        <b>@Model.phone</b>
+        <br />
+         // <b>@Model.address</b>
+        <br />
+
+    }
+</body>
+</html>

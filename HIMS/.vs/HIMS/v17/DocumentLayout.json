@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\HIMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\repository\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\repository\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\views\\patient\\addpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\views\\patient\\addpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\controllers\\patientapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\controllers\\patientapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\controllers\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\controllers\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\controllers\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\controllers\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\views\\patient\\displaypatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\views\\patient\\displaypatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|c:\\users\\dell\\source\\repos\\hims\\hims\\migrations\\20251030095454_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93EFF8D-62AF-4933-8F3B-D7B7AABFA598}|HIMS\\HIMS.csproj|solutionrelative:hims\\migrations\\20251030095454_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\PatientAPIController.cs",
+              "RelativeDocumentMoniker": "HIMS\\Controllers\\PatientAPIController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\PatientAPIController.cs",
+              "RelativeToolTip": "HIMS\\Controllers\\PatientAPIController.cs",
+              "ViewState": "AgIAAFgAAADAmZmZmRkjwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:16:41.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Repository\\PatientDbContext.cs",
+              "RelativeDocumentMoniker": "HIMS\\Repository\\PatientDbContext.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Repository\\PatientDbContext.cs",
+              "RelativeToolTip": "HIMS\\Repository\\PatientDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T09:19:24.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\Patient.cs",
+              "RelativeDocumentMoniker": "HIMS\\Controllers\\Patient.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\Patient.cs",
+              "RelativeToolTip": "HIMS\\Controllers\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:22:21.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "HIMS\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "HIMS\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:48:10.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddPatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Views\\Patient\\AddPatient.cshtml",
+              "RelativeDocumentMoniker": "HIMS\\Views\\Patient\\AddPatient.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Views\\Patient\\AddPatient.cshtml",
+              "RelativeToolTip": "HIMS\\Views\\Patient\\AddPatient.cshtml",
+              "ViewState": "AgIAAAQAAACALjMzMzMbwB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T11:48:55.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DisplayPatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Views\\Patient\\DisplayPatient.cshtml",
+              "RelativeDocumentMoniker": "HIMS\\Views\\Patient\\DisplayPatient.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Views\\Patient\\DisplayPatient.cshtml",
+              "RelativeToolTip": "HIMS\\Views\\Patient\\DisplayPatient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T11:49:59.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\Address.cs",
+              "RelativeDocumentMoniker": "HIMS\\Controllers\\Address.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\Address.cs",
+              "RelativeToolTip": "HIMS\\Controllers\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T13:46:18.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HIMS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HIMS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAA4MzMzM3M8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T11:47:32.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Program.cs",
+              "RelativeDocumentMoniker": "HIMS\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Program.cs",
+              "RelativeToolTip": "HIMS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T04:00:20.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HIMS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HIMS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T11:49:42.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20251030095454_v2.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Migrations\\20251030095454_v2.cs",
+              "RelativeDocumentMoniker": "HIMS\\Migrations\\20251030095454_v2.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\HIMS\\HIMS\\Migrations\\20251030095454_v2.cs",
+              "RelativeToolTip": "HIMS\\Migrations\\20251030095454_v2.cs",
+              "ViewState": "AgIAAAQAAADgMjMzM7MiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T09:54:54.561Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
