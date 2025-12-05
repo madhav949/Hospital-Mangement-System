@@ -134,7 +134,7 @@ Dependency Injection
 
 📸 Output Screenshots
 
-<img width="1706" height="905" alt="Screenshot 2025-11-29 171540" src="https://github.com/user-attachments/assets/acbd15ba-9b7c-4dc1-8a00-728c7cb1188e" />
+<img width="1706" height="905" alt="Screenshot Of UI" src="src/UI_Image.png" />
 
 
 👨‍💻 Author
