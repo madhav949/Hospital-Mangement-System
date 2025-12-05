@@ -1,12 +1,12 @@
-**📌Hospital Management System (Angular + .NET CRUD)**
+## **📌Hospital Management System (Angular + .NET CRUD)**
 
 The Hospital Management System is a simple and user-friendly application designed to manage and maintain patient records efficiently.
 This project allows users to add, update, delete, and view patient information.
 New features will be added in the future as the system grows.
 
-Features
+## 📌 Features
 
- Patient Management
+Patient Management
 
 Add new patient details
 
@@ -20,7 +20,7 @@ View patient list
 
 Designed to be easy for hospital staff to use.
 
- **Future Enhancements **
+ ## 🛠️ Future Improvements
 
   Doctor management
   
@@ -33,7 +33,7 @@ Designed to be easy for hospital staff to use.
   Medical history and reports
 
 
-📂 Project Structure
+## 📁 Project Structure
 
 Hospital-Management-System/
 
@@ -44,7 +44,7 @@ Hospital-Management-System/
     └── other files…
 
 
-Angular Frontend
+### **Angular Frontend**
 
     frontend/
      ├── src/
@@ -59,7 +59,7 @@ Angular Frontend
 
 
 
-.NET Backend
+### **.NET Backend**
 
     backend/
      ├── Controllers/              # API Endpoints (PatientsController)
@@ -71,8 +71,8 @@ Angular Frontend
      └── Program.cs / Startup.cs
     
 
-🚀 Tech Stack
-Frontend (Angular)
+## 🚀 Tech Stack
+### **Frontend (Angular)**
 
 Angular 16+
 
@@ -82,7 +82,7 @@ HttpClient for REST API communication
 
 
 
-Backend (.NET)
+### **Backend (ASP.NET Core)**
 
 ASP.NET Core (.NET 6 / 7)
 
@@ -97,7 +97,7 @@ Model Binding + Validation
 Dependency Injection
 
 
-🚀 How to Run
+## 🚀 How to Run
 
 1. Clone the repository
 
@@ -132,11 +132,11 @@ Dependency Injection
 
         npm run dev
 
-📸 Output Screenshots
+## Preview 
 
 <img width="1706" height="905" alt="Screenshot Of UI" src="src/UI_Image.png" />
 
 
-👨‍💻 Author
+## 🙌 Author
 
-Madhav Joshi
+## Madhav Joshi
