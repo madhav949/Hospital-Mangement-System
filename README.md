@@ -1,4 +1,4 @@
-**Hospital Management System**
+**📌Hospital Management System (Angular + .NET CRUD)**
 
 The Hospital Management System is a simple and user-friendly application designed to manage and maintain patient records efficiently.
 This project allows users to add, update, delete, and view patient information.
